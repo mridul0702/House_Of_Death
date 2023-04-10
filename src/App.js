@@ -1,9 +1,13 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Navbar from './components/Navbar';
 
 function App() {
   return (
+    <div className='App'>
+      <Routes>
+        <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/complaint" element={<ComplaintForm />} />
+      </Routes>
     <div className="App">
     <Navbar/>
     </div>
