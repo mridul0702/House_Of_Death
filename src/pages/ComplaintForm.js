@@ -58,7 +58,7 @@ const ComplaintForm = () => {
             <input type="text" className="form-control" placeholder='Enter Your Aadhar Id' id="aadhar_box" required />
           </div>
         </div>
-          <button type="submit" className="btn btn-primary">Submit</button>
+          <button type="submit" style={{backgroundColor:"blue"}} className="btn btn-primary">Submit</button>
       </form>
     </div>
   )
