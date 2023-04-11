@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
-import Home from './components/Home';
-import ComplaintForm from './components/ComplaintForm'
+import Home from './pages/Home';
+import ComplaintForm from './pages/ComplaintForm'
 function App() {
   return (
     <div className='App'>

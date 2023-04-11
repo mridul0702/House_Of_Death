@@ -40,3 +40,7 @@ label{
   /* text-indent: ; */
   font-weight: 600;
 }
+
+button{
+  background-color: blue;
+}

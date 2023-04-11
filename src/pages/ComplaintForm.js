@@ -10,7 +10,7 @@ const ComplaintForm = () => {
             <input type="text" className="form-control" name='name' id="name_box" placeholder='Full Name' aria-describedby="emailHelp" required />
           </div>
           <div className="mb-3 col-12 col-md-3 col-sm-4">
-            <label for="email_box" className="form-label">Email address</label>
+            <label for="email_box" className="form-label">Email Address*</label>
             <input type="email" className="form-control" name='email' id="email_box" placeholder='Email' aria-describedby="emailHelp" required/>
           </div>
           <div className="mb-3 col-12 col-md-3 col-sm-4" >
@@ -58,7 +58,7 @@ const ComplaintForm = () => {
             <input type="text" className="form-control" placeholder='Enter Your Aadhar Id' id="aadhar_box" required />
           </div>
         </div>
-          <button type="submit" className="btn btn-success">Submit</button>
+          <button type="submit" className="btn btn-primary">Submit</button>
       </form>
     </div>
   )
